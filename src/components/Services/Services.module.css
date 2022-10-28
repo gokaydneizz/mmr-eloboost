@@ -1,0 +1,33 @@
+.services {
+  background: url("../../assets/services-items/panth.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 2rem 0;
+}
+
+.services-title {
+  text-align: center;
+  font-family: "Marcellus SC", serif;
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  padding: 2rem 0;
+  color: #ffd700;
+  max-width: 400px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ffd700;
+}
+
+.serviceIcon {
+  width: 100px;
+  display: flex;
+}
+
+.service-cards-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px 10%;
+  cursor: pointer;
+}

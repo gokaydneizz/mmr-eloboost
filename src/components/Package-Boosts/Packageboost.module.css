@@ -1,0 +1,37 @@
+.package-container {
+  background-color: #171d29;
+  padding: 2rem 3rem;
+  position: relative;
+}
+
+.package-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #c39031;
+  font-family: 'Marcellus SC', serif;
+  letter-spacing: 1rem;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.explanation {
+  font-size: 1.3rem;
+  font-family: 'Nunito', sans-serif;
+  color: #fa3c02;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.udyr {
+  position: absolute;
+  left: 48.5%;
+  top: 77.5%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+}

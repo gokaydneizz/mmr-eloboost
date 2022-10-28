@@ -1,0 +1,51 @@
+.package-card-container {
+  border: 1px solid gray;
+  max-width: 400px;
+  height: 600px;
+  background: url('../../../assets/package-boost-items/udyr-card-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.package-card-img {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  z-index: 100000;
+}
+
+.offer {
+  text-decoration: none;
+  color: #c39031;
+  font-family: 'Marcellus SC', serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+}
+
+.netWin {
+  font-family: 'Marcellus SC', serif;
+  color: rgb(230, 69, 69);
+  text-align: center;
+  position: relative;
+  top: 25%;
+  opacity: 0;
+  transition: opacity 1s;
+  margin-bottom: 5px;
+}
+
+.package-card-img:hover + .offer {
+  top: 10%;
+}
+
+.package-card-img:hover ~ .netWin {
+  opacity: 1;
+}

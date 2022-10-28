@@ -1,0 +1,44 @@
+.privacy-card-container {
+  border-radius: 15px;
+  border: 5px solid #cc6600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+  max-width: 350px;
+  height: 380px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.privacy-card-container:hover {
+  transform: scale(1.1);
+  z-index: 200000;
+}
+
+.privacy-card-image {
+  width: 120px;
+  padding-bottom: 25px;
+  margin-top: -50px;
+}
+
+.line {
+  width: 90%;
+  height: 1px;
+  background-color: gray;
+  margin-bottom: 12px;
+}
+
+.privacy-card-text {
+  font-size: 1.4rem;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  text-align: center;
+}

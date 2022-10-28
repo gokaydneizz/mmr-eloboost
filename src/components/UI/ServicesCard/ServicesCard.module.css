@@ -1,0 +1,110 @@
+.services-card-container {
+  background: rgba(73, 69, 69, 0.33);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.7px);
+  -webkit-backdrop-filter: blur(0.7px);
+  border: 1px solid rgba(73, 69, 69, 0.3);
+  max-width: 400px;
+  border-radius: 10px;
+  height: 400px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 1s;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+.services-card-container:hover {
+  box-shadow: 0px 1px 20px 8px rgba(207, 184, 207, 1);
+}
+
+.services-card-title {
+  font-family: 'Marcellus SC', serif;
+  color: #c39031;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.services-card-text {
+  font-family: 'Nunito', sans-serif;
+  color: rgb(216, 206, 206);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  text-align: center;
+}
+
+.services-card-button {
+  padding: 10px 30px;
+  font-family: 'Marcellus SC', serif;
+  background-color: #c39031;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: box-shadow 0.8s;
+}
+
+.services-card-button:hover {
+  box-shadow: 0px 2px 22px 10px rgba(214, 139, 58, 1);
+}
+
+.valorant-card-container {
+  max-width: 400px;
+  height: 400px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(204, 71, 71, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: box-shadow 1s;
+}
+
+.valorant-card-container:hover {
+  box-shadow: 0px 1px 20px 8px rgba(204, 71, 71, 0.7);
+}
+
+.valorant-card-title {
+  font-size: 3rem;
+  font-family: 'Marcellus SC', serif;
+  color: #ece8e1;
+  text-align: center;
+}
+
+.valorant-card-text {
+  font-family: 'Nunito', sans-serif;
+  color: rgb(216, 206, 206);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  text-align: center;
+}
+
+.valorant-card-button {
+  padding: 10px 30px;
+  font-family: 'Marcellus SC', serif;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff4655;
+  cursor: pointer;
+  font-size: 2rem;
+  border: none;
+  transition: box-shadow 1s;
+}
+
+.valorant-card-button:hover {
+  box-shadow: 0px 1px 20px 8px rgba(197, 38, 38, 0.7);
+}

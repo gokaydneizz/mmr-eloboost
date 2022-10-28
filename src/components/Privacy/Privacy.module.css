@@ -1,0 +1,9 @@
+.privacy-container {
+  background: url('../../assets/privacy-items/card-background.png');
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 12rem 2.5rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

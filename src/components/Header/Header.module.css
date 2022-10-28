@@ -1,0 +1,8 @@
+.page-header {
+  width: 100vw;
+  height: 100vh;
+  background: url('../../assets/header-items/cuzadms.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
